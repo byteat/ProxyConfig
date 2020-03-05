@@ -369,8 +369,6 @@ AND,((USER-AGENT,ZhihuHybrid*),(NOT,((DOMAIN,www.zhihu.com))),(NOT,((DOMAIN,stat
 AND,((USER-AGENT,osee2*),(NOT,((DOMAIN,api.zhihu.com))),(NOT,((DOMAIN,lens.zhihu.com))),(NOT,((DOMAIN,static.zhihu.com))),(NOT,((DOMAIN,www.zhihu.com))),(NOT,((DOMAIN-SUFFIX,zhimg.com))))
 
 # AD Block
-DOMAIN-KEYWORD,admarvel
-
 DOMAIN-SUFFIX,114la.com
 DOMAIN-SUFFIX,114so.cn
 DOMAIN-SUFFIX,2cnt.net
