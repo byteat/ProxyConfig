@@ -1,4 +1,6 @@
 # Unbreak
+# > Apple
+DOMAIN-SUFFIX,me.com
 # > General
 USER-AGENT,coffeecorp*
 USER-AGENT,restaurant-mobile*
