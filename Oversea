@@ -234,7 +234,7 @@ DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,gmail.com,notification-text="“Gmail，连通你我”",notification-interval=300
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,t.co
@@ -247,3 +247,36 @@ DOMAIN-SUFFIX,youtube-nocookie.com
 USER-AGENT,Microsoft*
 USER-AGENT,Reeder*
 USER-AGENT,Whatsapp*
+
+# Amazon
+IP-CIDR,13.32.0.0/16,no-resolve
+IP-CIDR,13.33.0.0/16,no-resolve
+IP-CIDR,13.35.0.0/17,no-resolve
+IP-CIDR,18.184.0.0/15,no-resolve
+IP-CIDR,18.194.0.0/15,no-resolve
+IP-CIDR,18.208.0.0/13,no-resolve
+IP-CIDR,18.232.0.0/14,no-resolve
+IP-CIDR,52.200.0.0/13,no-resolve
+IP-CIDR,52.58.0.0/15,no-resolve
+IP-CIDR,52.74.0.0/16,no-resolve
+IP-CIDR,52.77.0.0/16,no-resolve
+IP-CIDR,52.84.0.0/15,no-resolve
+IP-CIDR,54.156.0.0/14,no-resolve
+IP-CIDR,54.226.0.0/15,no-resolve
+IP-CIDR,54.230.156.0/22,no-resolve
+IP-CIDR,54.93.0.0/16,no-resolve
+
+# Google
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
+
+# Telegram
+IP-CIDR,91.108.4.0/22,no-resolve
+IP-CIDR,91.108.8.0/22,no-resolve
+IP-CIDR,91.108.12.0/22,no-resolve
+IP-CIDR,91.108.16.0/22,no-resolve
+IP-CIDR,91.108.56.0/22,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23d::/48,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,no-resolve
