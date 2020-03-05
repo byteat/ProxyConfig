@@ -355,13 +355,6 @@ DOMAIN-SUFFIX,ws.ksmobile.net
 DOMAIN-SUFFIX,wtradv.market.xiaomi.com
 DOMAIN-SUFFIX,xmpush.xiaomi.com
 
-# Yiche
-URL-REGEX,^https?:\/\/api\.ycapp\.yiche\.com\/media\/getrecommandmediainfolist
-URL-REGEX,^https?:\/\/api\.ycapp\.yiche\.com\/yicheapp\/getupdateinfo
-URL-REGEX,^https?:\/\/cheyouapi\.ycapp\.yiche\.com\/appforum\/GetUserMessageCount
-URL-REGEX,^https?:\/\/extapi\.ycapp\.yiche\.com\/.+\/getadlist
-URL-REGEX,^https?:\/\/extapi\.ycapp\.yiche\.com\/yicheapp\/adfeedback
-
 # Zhihu
 DOMAIN,mqtt.zhihu.com
 DOMAIN,sugar.zhihu.com
