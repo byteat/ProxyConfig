@@ -177,3 +177,8 @@ USER-AGENT,QQ*
 USER-AGENT,Ripple*
 USER-AGENT,Speedtest*
 USER-AGENT,YYeTs*
+
+# Torrent
+URL-REGEX,(Subject|HELO|SMTP)
+URL-REGEX,(ed2k|torrent|.torrent|peer_id=|announce|info_hash|get_peers|find_node|BitTorrent|announce_peer|protocol|announce.php\?passkey=|magnet:|xunlei|sandai|Thunder|XLLiveUD|bt_key)
+URL-REGEX,\/^.*@(guerrillamail.(info|biz|com|de|net|org)|guerrillamailblock.com|sharklasers.com|grr.la|pokemail.net|spam4.me|(mail.)?bccto.me|chacuo.net|027168.com)$\/i
