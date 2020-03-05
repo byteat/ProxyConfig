@@ -365,8 +365,8 @@ DOMAIN,mqtt.zhihu.com
 DOMAIN,sugar.zhihu.com
 URL-REGEX,https:\/\/api\.zhihu\.com\/(fringe|zst|real_time|ad-style-service|banners|topstory\/hot-lists|market\/popover|mqtt|.*launch|.*featured-comment-ad|.*recommendations|search\/(top|tabs|preset))
 USER-AGENT,AVOS*
-AND,((USER-AGENT,ZhihuHybrid*), (NOT,((DOMAIN,www.zhihu.com))), (NOT,((DOMAIN,static.zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))))
-AND,((USER-AGENT,osee2*), (NOT,((DOMAIN,api.zhihu.com))), (NOT,((DOMAIN,lens.zhihu.com))), (NOT,((DOMAIN,static.zhihu.com))), (NOT,((DOMAIN,www.zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))))
+AND,((USER-AGENT,ZhihuHybrid*),(NOT,((DOMAIN,www.zhihu.com))),(NOT,((DOMAIN,static.zhihu.com))),(NOT,((DOMAIN-SUFFIX,zhimg.com))))
+AND,((USER-AGENT,osee2*),(NOT,((DOMAIN,api.zhihu.com))),(NOT,((DOMAIN,lens.zhihu.com))),(NOT,((DOMAIN,static.zhihu.com))),(NOT,((DOMAIN,www.zhihu.com))),(NOT,((DOMAIN-SUFFIX,zhimg.com))))
 
 # AD Block
 DOMAIN-KEYWORD,admarvel
@@ -602,5 +602,4 @@ DOMAIN-SUFFIX,yooli.com
 DOMAIN-SUFFIX,youmi.net
 DOMAIN-SUFFIX,yoyi.com.cn
 DOMAIN-SUFFIX,zhiziyun.com
-DOMAIN-SUFFIX,zyiis.net5
-IP-CIDR,113.57.230.88/32,no-resolve
+DOMAIN-SUFFIX,zyiis.net555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
