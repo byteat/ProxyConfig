@@ -275,7 +275,6 @@ DOMAIN-SUFFIX,btrace.qq.com
 DOMAIN-SUFFIX,dp3.qq.com
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
-;DOMAIN-SUFFIX,iacc.qq.com
 DOMAIN-SUFFIX,l.qq.com
 DOMAIN-SUFFIX,mcgi.v.qq.com
 DOMAIN-SUFFIX,mdevstat.qqlive.qq.com
@@ -369,6 +368,27 @@ AND,((USER-AGENT,ZhihuHybrid*),(NOT,((DOMAIN,www.zhihu.com))),(NOT,((DOMAIN,stat
 AND,((USER-AGENT,osee2*),(NOT,((DOMAIN,api.zhihu.com))),(NOT,((DOMAIN,lens.zhihu.com))),(NOT,((DOMAIN,static.zhihu.com))),(NOT,((DOMAIN,www.zhihu.com))),(NOT,((DOMAIN-SUFFIX,zhimg.com))))
 
 # AD Block
+DOMAIN-KEYWORD,admarvel
+DOMAIN-KEYWORD,admaster
+DOMAIN-KEYWORD,adsage
+DOMAIN-KEYWORD,adsmogo
+DOMAIN-KEYWORD,adwords
+DOMAIN-KEYWORD,analysis
+DOMAIN-KEYWORD,dnserror
+DOMAIN-KEYWORD,domob
+DOMAIN-KEYWORD,duomeng
+DOMAIN-KEYWORD,guanggao
+DOMAIN-KEYWORD,lianmeng
+DOMAIN-KEYWORD,mobads
+DOMAIN-KEYWORD,omgmta
+DOMAIN-KEYWORD,partnerad
+DOMAIN-KEYWORD,pingfore
+DOMAIN-KEYWORD,securepubads
+DOMAIN-KEYWORD,supersonicads
+DOMAIN-KEYWORD,tongji
+DOMAIN-KEYWORD,wlmonitor
+DOMAIN-KEYWORD,zjtoolbar
+
 DOMAIN-SUFFIX,114la.com
 DOMAIN-SUFFIX,114so.cn
 DOMAIN-SUFFIX,2cnt.net
