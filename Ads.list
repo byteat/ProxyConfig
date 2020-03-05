@@ -1,3 +1,7 @@
+DOMAIN,ocsp.apple.com // 证书验证服务器
+DOMAIN-SUFFIX,iadsdk.apple.com
+DOMAIN-SUFFIX,unityads.unity3d.com
+
 # Ads in Video Apps
 # Acfun
 URL-REGEX,^https?:\/\/api-new\.acfunchina\.com\/rest\/app\/flash\/screen\/list
@@ -77,6 +81,7 @@ URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+(ad|log)_
 # Youtube++
 URL-REGEX,^https?:\/\/api\.catch\.gift\/api\/v3\/pagead\/
 
+# Custom
 # 10000
 URL-REGEX,^http:\/\/image1\.chinatelecom-ec\.com\/images\/.+\/\d{13}\.jpg
 
