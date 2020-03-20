@@ -182,11 +182,11 @@ DOMAIN-SUFFIX,cps.360buy.com
 DOMAIN-SUFFIX,img-x.jd.com
 DOMAIN-SUFFIX,jzt.jd.com
 DOMAIN-SUFFIX,stat.m.jd.com
-URL-REGEX,^https?:\/\/111\.13\.29\.201\/client\.action\?functionId=start
+#URL-REGEX,^https?:\/\/111\.13\.29\.201\/client\.action\?functionId=start
 URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=jdDiscoveryRedPoint
-URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=queryMaterialAdverts
+#URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=queryMaterialAdverts
 URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=redDot
-URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start
+#URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start
 URL-REGEX,^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/
 URL-REGEX,^https?:\/\/cc\.m\.jd\.com\/client\.action\?functionId=redpoint
 URL-REGEX,^https?:\/\/img12\.360buyimg\.com\/.+width=\d{4}&height=\d{4}
