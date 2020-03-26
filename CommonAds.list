@@ -194,8 +194,6 @@ URL-REGEX,^https?:\/\/img12\.360buyimg\.com\/.+width=\d{4}&height=\d{4}
 # Liandongyunzuche
 URL-REGEX,^https?:\/\/m\.ldygo\.com\/zucheapp\/los\/zuche-intf-rent\.showAdvertList // 最新活动
 URL-REGEX,^https?:\/\/m\.ldygo\.com\/zucheapp\/los\/zuche-intf-rent\.showSRAdvertList // 开屏广告
-URL-REGEX,^https?:\/\/m\.ldygo\.com\/zucheapp\/los\/zuche-intf-login\.findLatestAppInfo // 更新检测
-URL-REGEX,^https?:\/\/m\.ldygo\.com\/zucheapp\/los\/zuche-intf-web\.getUpdateUrl // 更新检测
 
 # Meituan
 URL-REGEX,^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/.+\.(gif|jpg|jpg\.webp)$
