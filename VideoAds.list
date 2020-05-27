@@ -53,16 +53,8 @@ URL-REGEX,^https?:\/\/paopao\w?\.qiyipic\.com
 # Youtube
 
 DOMAIN-SUFFIX,ads.youtube.com
-DOMAIN-SUFFIX,azabu-u.ac.jp
-DOMAIN-SUFFIX,couchcoaster.jp
-DOMAIN-SUFFIX,delivery.dmkt-sp.jp
-DOMAIN-SUFFIX,ehg-youtube.hitbox.com
 DOMAIN-SUFFIX,mtalk.google.com,REJECT
-DOMAIN-SUFFIX,m-78.jp
-DOMAIN-SUFFIX,nichibenren.or.jp
-DOMAIN-SUFFIX,nicorette.co.kr
 DOMAIN-SUFFIX,suggestqueries.google.com,REJECT
-DOMAIN-SUFFIX,youtube.112.2o7.net
 URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+&oad
 URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+ctier
 URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost
@@ -70,10 +62,7 @@ URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/(ads|.+adformat)
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/pagead\/
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/ptracking\?
-URL-REGEX,^https?:\/\/m\.youtube\.com\/_get_ads
-URL-REGEX,^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite
-URL-REGEX,^https?:\/\/s0\.2mdn\.net\/ads\/
-URL-REGEX,^https?:\/\/stats\.tubemogul\.com\/stats\/
+URL-REGEX,^https?:\/\/m\.youtube\.com\/_get_ads/
 URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/.+ad_break
 URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+(ad|log)_
 
