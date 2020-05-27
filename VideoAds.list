@@ -51,14 +51,17 @@ URL-REGEX,^https?:\/\/iface2\.iqiyi\.com\/fusion\/3\.0\/fusion_switch
 URL-REGEX,^https?:\/\/paopao\w?\.qiyipic\.com
 
 # Youtube
+
 DOMAIN-SUFFIX,ads.youtube.com
 DOMAIN-SUFFIX,azabu-u.ac.jp
 DOMAIN-SUFFIX,couchcoaster.jp
 DOMAIN-SUFFIX,delivery.dmkt-sp.jp
 DOMAIN-SUFFIX,ehg-youtube.hitbox.com
+DOMAIN-SUFFIX,mtalk.google.com,REJECT
 DOMAIN-SUFFIX,m-78.jp
 DOMAIN-SUFFIX,nichibenren.or.jp
 DOMAIN-SUFFIX,nicorette.co.kr
+DOMAIN-SUFFIX,suggestqueries.google.com,REJECT
 DOMAIN-SUFFIX,youtube.112.2o7.net
 URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+&oad
 URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+ctier
