@@ -2,13 +2,10 @@
 # > Apple
 DOMAIN-SUFFIX,me.com
 # > General
-USER-AGENT,coffeecorp*
-USER-AGENT,restaurant-mobile*
 DOMAIN,app.adjust.com
 # > Google
 DOMAIN-SUFFIX,googletraveladservices.com
 DOMAIN,dl.google.com
-DOMAIN,mtalk.google.com
 # > Tencent
 DOMAIN,livew.l.qq.com
 DOMAIN,vd.l.qq.com
