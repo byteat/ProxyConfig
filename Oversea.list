@@ -20,14 +20,6 @@ DOMAIN-SUFFIX,outlook.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamstatic.com
-
-# Tiktok
-DOMAIN-SUFFIX,byteoversea.com
-DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,tiktokv.com
-DOMAIN-SUFFIX,tiktokcdn.com
-
 # Top blocked sites
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,2o7.net
