@@ -1,0 +1,18 @@
+#!name=Aweme&TikTok
+#!desc=抖音去广告、去水印，TikTok区域解所
+#!system=ios
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/maicoo-l/Surge/master/rules/media/TikTok.list,PROXY
+
+[URL Rewrite]
+(?<=_region=)CN(?=&) JP 307
+(?<=&app_version=)16..(?=.?.?&) 1 307
+(?<=\?version_code=)16..(?=.?.?&) 1 307
+
+[MITM]
+hostname = %APPEND% *.snssdk.com, *.amemv.com, *.akamaized.net, *.appsflyer.com, *.tiktokv.com, *.muscdn.com, *.byteoversea.com, *.musical.ly, *.ibyteimg.com, *.app-measurement.com
+
+[Script]
+Aweme = type=http-request,pattern=^https:\/\/.*\.(amemv|musical)\.(com|ly)\/aweme\/v.*\/(feed|post),requires-body=1,max-size=0,script-path=https://choler.github.io/Surge/Script/Aweme.js,script-update-interval=0
+Aweme = type=http-response,pattern=^https:\/\/.*\.(amemv|musical)\.(com|ly)\/aweme\/v.*\/(feed|post),requires-body=1,max-size=0,script-path=https://choler.github.io/Surge/Script/Aweme.js,script-update-interval=0
