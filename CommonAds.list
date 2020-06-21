@@ -18,7 +18,6 @@ DOMAIN-SUFFIX,fa.163.com
 DOMAIN-SUFFIX,g.163.com
 DOMAIN-SUFFIX,g1.163.com
 DOMAIN-SUFFIX,gb.corp.163.com
-DOMAIN-SUFFIX,iadmusicmat.music.126.net
 DOMAIN-SUFFIX,img1.126.net
 DOMAIN-SUFFIX,img2.126.net
 DOMAIN-SUFFIX,mimg.126.net
@@ -28,12 +27,6 @@ DOMAIN-SUFFIX,nosdn.127.net
 DOMAIN-SUFFIX,stat.ws.126.net
 DOMAIN-SUFFIX,statis.push.netease.com
 DOMAIN-SUFFIX,wanproxy.127.net
-URL-REGEX,^http:\/\/.+?163\.com\/madr?app=\b.+platform=\b.+uid
-URL-REGEX,^https?:\/\/.+\.127\.net\/ad
-URL-REGEX,^https?:\/\/.+\/eapi\/(ad|log|event)\/ // 112.13.119.17
-URL-REGEX,^https?:\/\/c\.m\.163\.com\/nc\/gl\/
-URL-REGEX,^https?:\/\/music\.163\.com\/eapi\/banner\/get\/
-URL-REGEX,^https?:\/\/p[^4](c)?\.music\.126\.net\/\w+==\/10995\d{13}\.jpg$
 
 # 51job
 URL-REGEX,^http:\/\/api\.51job\.com\/api\/market\/adtrace\.php
