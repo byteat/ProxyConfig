@@ -15,4 +15,4 @@ DOMAIN,analytics.strava.com
 DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
 # > Liandongyun
-AND, ((USER-AGENT,QHZC_DEV), (AND,((DOMAIN-SUFFIX,mob.com))))
+AND, ((USER-AGENT,QHZC_DEV*), (AND,((DOMAIN-SUFFIX,mob.com))))
