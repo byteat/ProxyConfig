@@ -9,7 +9,7 @@ Tasks: 10010 = type=cron,cronexp=11 01 0 * * *,script-path=https://raw.githubuse
 Tasks: AcFun = type=cron,cronexp=16 01 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/acfun/acfun.js,wake-system=true
 Tasks: Bilibili漫画 = type=cron,cronexp=21 01 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js,wake-system=true
 Tasks: IThome = type=cron,cronexp=26 01 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ithome/ithome.js,wake-system=true
-Tasks: iQIYI = type=cron,cronexp=31 01 0 * * *,script-path= https://raw.githubusercontent.com/NobyDa/Script/5c236a74d1dd7b02a64e34fbb7f976b0638f6268/iQIYI-DailyBonus/iQIYI.js,wake-system=true
+Tasks: iQIYI = type=cron,cronexp=31 01 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,wake-system=true
 Tasks: 腾讯视频 = type=cron,cronexp=36 01 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,wake-system=true
 Tasks: 京东 = type=cron,cronexp=59 01 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,wake-system=true
 Tasks: 字幕组 = type=cron,cronexp=41 01 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js,wake-system=true
