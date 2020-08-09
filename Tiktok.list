@@ -7,8 +7,8 @@ RULE-SET,https://raw.githubusercontent.com/maicoo-l/Surge/master/rules/media/Tik
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) JP 307
-(?<=&app_version=)16..(?=.?.?&) 1 307
-(?<=\?version_code=)16..(?=.?.?&) 1 307
+(?<=&app_version=)17..(?=.?.?&) 1 307
+(?<=\?version_code=)17..(?=.?.?&) 1 307
 
 [MITM]
 hostname = %APPEND% *.snssdk.com, *.amemv.com, *.akamaized.net, *.appsflyer.com, *.tiktokv.com, *.muscdn.com, *.byteoversea.com, *.musical.ly, *.ibyteimg.com, *.app-measurement.com
