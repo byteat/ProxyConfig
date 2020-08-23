@@ -349,14 +349,6 @@ DOMAIN-SUFFIX,ws.ksmobile.net
 DOMAIN-SUFFIX,wtradv.market.xiaomi.com
 DOMAIN-SUFFIX,xmpush.xiaomi.com
 
-# Zhihu
-DOMAIN,mqtt.zhihu.com
-DOMAIN,sugar.zhihu.com
-#URL-REGEX,https:\/\/api\.zhihu\.com\/(fringe|zst|real_time|ad-style-service|banners|topstory\/hot-lists|market\/popover|mqtt|.*launch|.*featured-comment-ad|.*recommendations|search\/(top|tabs|preset))
-USER-AGENT,AVOS*
-#AND,((USER-AGENT,ZhihuHybrid*),(NOT,((DOMAIN,www.zhihu.com))),(NOT,((DOMAIN,static.zhihu.com))),(NOT,((DOMAIN-SUFFIX,zhimg.com))))
-#AND,((USER-AGENT,osee2*),(NOT,((DOMAIN,api.zhihu.com))),(NOT,((DOMAIN,lens.zhihu.com))),(NOT,((DOMAIN,static.zhihu.com))),(NOT,((DOMAIN,www.zhihu.com))),(NOT,((DOMAIN-SUFFIX,zhimg.com))))
-
 # AD Block
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
