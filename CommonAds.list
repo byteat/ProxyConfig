@@ -349,6 +349,9 @@ DOMAIN-SUFFIX,ws.ksmobile.net
 DOMAIN-SUFFIX,wtradv.market.xiaomi.com
 DOMAIN-SUFFIX,xmpush.xiaomi.com
 
+# Zhihu
+URL-REGEX,^https:\/\/api\.zhihu\.com\/wx-minapp-push\/hot_recommendation\/ad
+
 # AD Block
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
