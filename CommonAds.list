@@ -350,8 +350,8 @@ DOMAIN-SUFFIX,wtradv.market.xiaomi.com
 DOMAIN-SUFFIX,xmpush.xiaomi.com
 
 # Zhihu
-URL-REGEX,^https:\/\/api\.zhihu\.com\/wx-minapp-push\/hot_recommendation\/ad
-URL-REGEX,.*:80\/snsdyvideodownload
+URL-REGEX,^https:\/\/api\.zhihu\.com\/wx-minapp-push\/hot_recommendation
+URL-REGEX,.*\/snsdyvideodownload
 IP-CIDR,221.204.62.183/32,no-resolve
 
 # AD Block
