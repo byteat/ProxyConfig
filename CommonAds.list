@@ -351,6 +351,7 @@ DOMAIN-SUFFIX,xmpush.xiaomi.com
 
 # Zhihu
 URL-REGEX,^https:\/\/api\.zhihu\.com\/wx-minapp-push\/hot_recommendation\/ad
+URL-REGEX,.*\/snsdyvideodownload
 
 # AD Block
 DOMAIN-KEYWORD,admarvel
