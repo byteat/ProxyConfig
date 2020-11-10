@@ -17,8 +17,8 @@ Tasks: 京东签到 = type=cron,cronexp=59 01 0 * * *,wake-system=true,timeout=6
 Tasks: 京东种豆 = type=cron,cronexp=01 02 07-21/1 * * *,wake-system=true,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js
 Tasks: 京东加速 = type=cron,cronexp=11 02 */3 * * *,wake-system=true,timeout=60,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_speed.js
 Tasks: 京东宠汪汪 = type=cron,cronexp=21 02 */3 * * *,wake-system=true,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js
-Tasks: 京宠汪兑奖 = type=cron,cronexp=35 02 0-16/4 * * *,wake-system=true,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js
-Tasks: 京东星推官 = type=cron,cronexp= 11 00 0 * * *,wake-system=true,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_xtg.js
+Tasks: 京宠汪兑奖 = type=cron,cronexp=15 00 0-16/4 * * *,wake-system=true,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js
+Tasks: 京东星推官 = type=cron,cronexp=11 00 0 * * *,wake-system=true,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_xtg.js
 Tasks: 京东取关 = type=cron,cronexp=13 02 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_unsubscribe.js
 Tasks: 字幕组 = type=cron,cronexp=41 01 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js
 Tasks: 航旅纵横 = type=cron,cronexp=41 02 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js
