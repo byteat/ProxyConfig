@@ -9,8 +9,8 @@ Tasks: 10000 = type=cron,cronexp=06 0 0 * * *,wake-system=true,timeout=10,script
 Tasks: 10010 = type=cron,cronexp=11 0 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js
 Tasks: AcFun = type=cron,cronexp=16 0 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/acfun/acfun.js
 Tasks: Bilibili漫画 = type=cron,cronexp=21 0 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
-Tasks: Bilibili直播 = type=cron,cronexp=23 0 0 * * *,wake-system=true,timeout=10,script-path=script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js
-Tasks: Bilibili银瓜子兑换 = type=cron,cronexp=25 0 0 * * *,wake-system=true,timeout=10,script-path=script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js
+Tasks: Bilibili直播 = type=cron,cronexp=23 0 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js
+Tasks: Bilibili银瓜子兑换 = type=cron,cronexp=25 0 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js
 Tasks: IThome = type=cron,cronexp=26 01 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ithome/ithome.js
 Tasks: iQIYI = type=cron,cronexp=31 01 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 Tasks: 腾讯视频 = type=cron,cronexp=36 01 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
