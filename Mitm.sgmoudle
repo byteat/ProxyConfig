@@ -1,0 +1,6 @@
+#!name=Surge Mitm All
+#!desc=Mitm All Connections
+#!system=ios
+
+[MITM]
+hostname = %INSERT%, *
