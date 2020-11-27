@@ -2,5 +2,10 @@
 #!desc=Mitm all connections, except for apple services.
 #!system=ios
 
+
+and.      The first thing that was a good app is the app it needs a little bit of the time of my 
+The app crashes when you have a few seconds of it to make 
+Try not a good idea 
+The only thing I could say was I would be 
 [MITM]
 hostname = %INSERT%, -*.apple.com, -*.icloud.com, *
