@@ -1,5 +1,5 @@
 #!name=Surge Mitm All Connections
-#!desc=Mitm All Connections, except for apple services.
+#!desc=Mitm all connections, except for apple services.
 #!system=ios
 
 [MITM]
