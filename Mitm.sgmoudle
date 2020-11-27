@@ -3,4 +3,4 @@
 #!system=ios
 
 [MITM]
-hostname = %INSERT%, *
+hostname = %INSERT%, -*.apple.com, -*.icloud.com, *
