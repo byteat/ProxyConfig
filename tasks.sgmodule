@@ -22,7 +22,7 @@ Tasks: 京东宠汪汪 = type=cron,cronexp=21 02 */3 * * *,wake-system=true,time
 Tasks: 京宠汪兑奖 = type=cron,cronexp=01 0 0-16/4 * * *,wake-system=true,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_reward.js
 Tasks: 东东萌宠 = type=cron,cronexp=20 7-19/6 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pet.js
 Tasks: 京小超 = type=cron,cronexp=11 1-23/5 * * *,wake-system=true,timeout=530,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_superMarket.js
-Tasks: 京小超领蓝币(兑换京豆) = type=cron,cronexp=01 0 0 * * *,wake-system=true,timeout=30,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js
+Tasks: 京小超领蓝币(兑换京豆) = type=cron,cronexp=03 0 0 * * *,wake-system=true,timeout=30,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js
 Tasks: 京东取关 = type=cron,cronexp=13 05 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_unsubscribe.js
 Tasks: 京东领京豆 = type=cron,cronexp=10 3 0 * * *,wake-system=true,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_home.js
 Tasks: 字幕组 = type=cron,cronexp=41 01 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js
