@@ -22,7 +22,7 @@ Tasks: 京宠汪兑奖 = type=cron,cronexp=01 0 0-16/4 * * *,wake-system=true,ti
 Tasks: 京小超 = type=cron,cronexp=11 1-23/5 * * *,wake-system=true,timeout=530,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_superMarket.js
 Tasks: 京小超兑奖 = type=cron,cronexp=9 0 0 * * *,wake-system=true,timeout=30,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_blueCoin.js
 Tasks: 京东取关 = type=cron,cronexp=13 5 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_unsubscribe.js
-Tasks: 京东直播 = type=cron,cronexp=11 5-10/5 12 * * *,wake-system=true,timeout=20,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_live.js
+Tasks: 京东直播 = type=cron,cronexp=11 3-7/2 12 * * *,wake-system=true,timeout=20,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_live.js
 Tasks: 京东领京豆 = type=cron,cronexp=2 3 0 * * *,wake-system=true,timeout=20,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_bean_home.js
 Tasks: 京东进店 = type=cron,cronexp=6 3 0 * * *,wake-system=true,timeout=20,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_shop.js
 Tasks: 京东赚赚 = type=cron,cronexp=9 3 0 * * *,wake-system=true,timeout=20,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_jdzz.js
