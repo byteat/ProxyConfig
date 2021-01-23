@@ -29,7 +29,7 @@ Tasks: 京东赚赚 = type=cron,cronexp=9 3 0 * * *,wake-system=true,timeout=20,
 Tasks: 京东农场 = type=cron,cronexp=5 6-18/6 * * *,wake-system=true,timeout=12200,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_fruit.js
 Tasks: 京东排行榜 = type=cron,cronexp=15 3 0 * * *,wake-system=true,timeout=20,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_rankingList.js
 Tasks: 京东十元街 = type=cron,cronexp=12 3 0 * * *,wake-system=true,timeout=20,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_syj.js
-Tasks: 京东炸年兽 = type=cron,cronexp=32 0 8 * * *,wake-system=true,timeout=222000,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian.js
+Tasks: 京东炸年兽 = type=cron,cronexp=32 0 8-12/4 * * *,wake-system=true,timeout=222000,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian.js
 Tasks: 京东收爆竹 = type=cron,cronexp=2 20 * * * *,wake-system=true,timeout=200,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nianCollect.js
 Tasks: 京东年兽签到 = type=cron,cronexp=2 8 * * *,wake-system=true,timeout=222000,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian_sign.js
 Tasks: 字幕组 = type=cron,cronexp=41 1 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js
