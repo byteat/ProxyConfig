@@ -3,38 +3,38 @@
 #!system=ios
 
 [Script]
-Tasks: Checkin = type=cron,cronexp=1 1 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js
-Tasks: Checkin Cookie版 = type=cron,cronexp=1 0 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
-Tasks: 10000 = type=cron,cronexp=6 0 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js
-Tasks: 10010 = type=cron,cronexp=11 0 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js
-Tasks: AcFun = type=cron,cronexp=16 0 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/acfun/acfun.js
-Tasks: Bilibili漫画 = type=cron,cronexp=21 0 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
-Tasks: Bilibili直播 = type=cron,cronexp=23 0 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js
-Tasks: IThome = type=cron,cronexp=26 1 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ithome/ithome.js
-Tasks: iQIYI = type=cron,cronexp=31 1 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
-Tasks: 什么值得买 = type=cron,cronexp=38 1 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js
-Tasks: 京东签到 = type=cron,cronexp=59 1 0 * * *,wake-system=true,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-Tasks: 京东种豆 = type=cron,cronexp=01 2 07-21/1 * * *,wake-system=true,timeout=600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_plantBean.js
-Tasks: 京东加速 = type=cron,cronexp=11 2 */3 * * *,wake-system=true,timeout=60,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_speed.js
-Tasks: 京东宠汪汪 = type=cron,cronexp=21 2 */3 * * *,wake-system=true,timeout=600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy.js
-Tasks: 京宠汪兑奖 = type=cron,cronexp=01 0 0-16/4 * * *,wake-system=true,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_reward.js
-Tasks: 京小超 = type=cron,cronexp=11 1-23/5 * * *,wake-system=true,timeout=530,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_superMarket.js
-Tasks: 京小超兑奖 = type=cron,cronexp=5 0 0 * * *,wake-system=true,timeout=30,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_blueCoin.js
-Tasks: 京东取关 = type=cron,cronexp=13 1 8,14 * * *,wake-system=true,timeout=10,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_unsubscribe.js
-Tasks: 京东直播 = type=cron,cronexp=11 3-7/2 12 * * *,wake-system=true,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_live.js
-Tasks: 京东领京豆 = type=cron,cronexp=2 3 0 * * *,wake-system=true,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_bean_home.js
-Tasks: 京东进店 = type=cron,cronexp=6 3 0 * * *,wake-system=true,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_shop.js
-Tasks: 京东赚赚 = type=cron,cronexp=9 3 0 * * *,wake-system=true,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_jdzz.js
-Tasks: 京东农场 = type=cron,cronexp=5 6-18/6 * * *,wake-system=true,timeout=1200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_fruit.js
-Tasks: 京东排行榜 = type=cron,cronexp=15 3 0 * * *,wake-system=true,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_rankingList.js
-Tasks: 京东十元街 = type=cron,cronexp=12 3 0 * * *,wake-system=true,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_syj.js
-Tasks: 京东炸年兽 = type=cron,cronexp=2 9-21/3 * * *,wake-system=true,timeout=1200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nian.js
-Tasks: 京东收爆竹 = type=cron,cronexp=2 2 */2 * * *,wake-system=true,timeout=200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nianCollect.js
-Tasks: 京东年兽签到 = type=cron,cronexp=0 9 * * *,wake-system=true,timeout=1200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nian_sign.js
-Tasks: 京东年兽AR = type=cron,cronexp=2 9 * * *,wake-system=true,timeout=36000,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nian_ar.js
-Tasks: 京东年兽微信 = type=cron,cronexp=5 9 * * *,wake-system=true,timeout=36000,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nian_wechat.js
-Tasks: 京东神仙书院 = type=cron,cronexp=2 8 * * *,wake-system=true,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_immortal.js
-Tasks: 京东书院答题 = type=cron,cronexp=12 2 * * * *,wake-system=true,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_immortal_answer.js
-Tasks: 京东互助码 = type=cron,cronexp=0 9 * * 6,wake-system=true,timeout=1200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_get_share_code.js
-Tasks: 字幕组 = type=cron,cronexp=41 1 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js
-Tasks: 航旅纵横 = type=cron,cronexp=41 2 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js
+Tasks: Checkin = type=cron,cronexp="1 1 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js
+Tasks: Checkin Cookie版 = type=cron,cronexp="1 0 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
+Tasks: 10000 = type=cron,cronexp="6 0 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js
+Tasks: 10010 = type=cron,cronexp="11 0 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js
+Tasks: AcFun = type=cron,cronexp="16 0 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/acfun/acfun.js
+Tasks: Bilibili漫画 = type=cron,cronexp="21 0 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
+Tasks: Bilibili直播 = type=cron,cronexp="23 0 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js
+Tasks: IThome = type=cron,cronexp="26 1 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ithome/ithome.js
+Tasks: iQIYI = type=cron,cronexp="31 1 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+Tasks: 什么值得买 = type=cron,cronexp="38 1 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js
+Tasks: 京东签到 = type=cron,cronexp="59 1 0 * * *",wake-system=true,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+Tasks: 京东种豆 = type=cron,cronexp="01 2 07-21/1 * * *",wake-system=true,timeout=600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_plantBean.js
+Tasks: 京东加速 = type=cron,cronexp="11 2 */3 * * *"",wake-system=true,timeout=60,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_speed.js
+Tasks: 京东宠汪汪 = type=cron,cronexp="21 2 */3 * * *",wake-system=true,timeout=600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy.js
+Tasks: 京宠汪兑奖 = type=cron,cronexp="01 0 0-16/4 * * *",wake-system=true,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_reward.js
+Tasks: 京小超 = type=cron,cronexp="11 1-23/5 * * *",wake-system=true,timeout=600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_superMarket.js
+Tasks: 京小超兑奖 = type=cron,cronexp="5 0 0 * * *",wake-system=true,timeout=30,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_blueCoin.js
+Tasks: 京东取关 = type=cron,cronexp="13 1 8,14 * * *",wake-system=true,timeout=10,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_unsubscribe.js
+Tasks: 京东直播 = type=cron,cronexp="11 3-7/2 12 * * *",wake-system=true,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_live.js
+Tasks: 京东领京豆 = type=cron,cronexp="2 3 0 * * *",wake-system=true,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_bean_home.js
+Tasks: 京东进店 = type=cron,cronexp="6 3 0 * * *",wake-system=true,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_shop.js
+Tasks: 京东赚赚 = type=cron,cronexp="9 3 0 * * *",wake-system=true,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_jdzz.js
+Tasks: 京东农场 = type=cron,cronexp="5 6-18/6 * * *",wake-system=true,timeout=1200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_fruit.js
+Tasks: 京东排行榜 = type=cron,cronexp="15 3 0 * * *",wake-system=true,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_rankingList.js
+Tasks: 京东十元街 = type=cron,cronexp="12 3 0 * * *",wake-system=true,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_syj.js
+Tasks: 京东炸年兽 = type=cron,cronexp="0 9,12,20,21 * * *",wake-system=true,timeout=1200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nian.js
+Tasks: 京东收爆竹 = type=cron,cronexp="2 2 */2 * * *",wake-system=true,timeout=200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nianCollect.js
+Tasks: 京东年兽签到 = type=cron,cronexp="0 9 * * *",wake-system=true,timeout=1200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nian_sign.js
+Tasks: 京东年兽AR = type=cron,cronexp="2 9 * * *",wake-system=true,timeout=1200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nian_ar.js
+Tasks: 京东年兽微信 = type=cron,cronexp="5 9 * * *",wake-system=true,timeout=1200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nian_wechat.js
+Tasks: 京东神仙书院 = type=cron,cronexp="2 8 * * *",wake-system=true,timeout=1200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_immortal.js
+Tasks: 京东书院答题 = type=cron,cronexp="12 2 * * * *",wake-system=true,timeout=1200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_immortal_answer.js
+Tasks: 京东互助码 = type=cron,cronexp="0 9 * * 6",wake-system=true,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_get_share_code.js
+Tasks: 字幕组 = type=cron,cronexp="41 1 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js
+Tasks: 航旅纵横 = type=cron,cronexp="41 2 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js
