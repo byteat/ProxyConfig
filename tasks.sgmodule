@@ -35,6 +35,6 @@ Tasks: 京东年兽AR = type=cron,cronexp=2 9 * * *,wake-system=true,timeout=360
 Tasks: 京东年兽微信 = type=cron,cronexp=5 9 * * *,wake-system=true,timeout=36000,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nian_wechat.js
 Tasks: 京东神仙书院 = type=cron,cronexp=2 8 * * *,wake-system=true,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_immortal.js
 Tasks: 京东书院答题 = type=cron,cronexp=12 2 * * * *,wake-system=true,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_immortal_answer.js
-Tasks: 京东互助码= type=cron,cronexp=0 9 * * 6,wake-system=true,timeout=1200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_get_share_code.js
+Tasks: 京东互助码 = type=cron,cronexp=0 9 * * 6,wake-system=true,timeout=1200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_get_share_code.js
 Tasks: 字幕组 = type=cron,cronexp=41 1 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js
 Tasks: 航旅纵横 = type=cron,cronexp=41 2 0 * * *,wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js
