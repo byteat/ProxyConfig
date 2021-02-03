@@ -204,13 +204,6 @@ URL-REGEX,^http:\/\/.+\/music\/common\/upload\/t_splash_info
 URL-REGEX,^http:\/\/.+\/tips\/fcgi-bin\/fcg_get_advert
 URL-REGEX,^http:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads
 
-# RRYS
-DOMAIN-SUFFIX,ad.zmzapi.net
-DOMAIN-SUFFIX,ads.voiceads.cn
-DOMAIN-SUFFIX,luomi.com
-DOMAIN-SUFFIX,sdk.cferw.com
-URL-REGEX,ctrl\.(playcvn|zmzapi)\.(com|net)\/app\/(ads|init)
-
 # Sina
 DOMAIN-SUFFIX,ad.sina.com.cn
 DOMAIN-SUFFIX,adbox.sina.com.cn
