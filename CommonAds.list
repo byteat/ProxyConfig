@@ -347,6 +347,11 @@ URL-REGEX,^https:\/\/api\.zhihu\.com\/wx-minapp-push\/hot_recommendation
 URL-REGEX,^http:\/\/wxsnsdy*\.wxs\.qq\.com\/.*\/ads
 IP-CIDR,221.204.62.183/32,no-resolve
 
+# Zhcw
+DOMAIN-SUFFIX,admobile.top
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
+
 # AD Block
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
@@ -402,7 +407,6 @@ DOMAIN-SUFFIX,adlocus.com
 DOMAIN-SUFFIX,ad-locus.com
 DOMAIN-SUFFIX,admedia.com
 DOMAIN-SUFFIX,admob.com
-DOMAIN-SUFFIX,admobile.top
 DOMAIN-SUFFIX,admon.cn
 DOMAIN-SUFFIX,adpolestar.net
 DOMAIN-SUFFIX,adpro.cn
