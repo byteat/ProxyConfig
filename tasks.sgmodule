@@ -28,11 +28,9 @@ Tasks: 京东赚赚 = type=cron,cronexp="9 3 0 * * *",wake-system=true,timeout=2
 Tasks: 京东农场 = type=cron,cronexp="5 6-18/6 * * *",wake-system=true,timeout=1200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_fruit.js
 Tasks: 京东排行榜 = type=cron,cronexp="15 3 0 * * *",wake-system=true,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_rankingList.js
 Tasks: 京东十元街 = type=cron,cronexp="12 3 0 * * *",wake-system=true,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_syj.js
-Tasks: 京东炸年兽 = type=cron,cronexp="0 9,12,20,21 * * *",wake-system=true,timeout=1200,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nian.js
 Tasks: 京东互助码 = type=cron,cronexp="0 9 * * 6",wake-system=true,timeout=20,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_get_share_code.js
 Tasks: 京东压岁钱 = type=cron,cronexp="20 8,12 * * *",wake-system=true,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_newYearMoney.js
 Tasks: 京东压岁钱抢百元卡 = type=cron,cronexp="0 0 9,12,16,20 * * *",wake-system=true,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_newYearMoney_lottery.js
-Tasks: 京东年货节 = type=cron,cronexp="31 8 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nh.js
 Tasks: 京东汽车 = type=cron,cronexp="40 8 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_car.js
 Tasks: 京东汽车兑换 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_car_exchange.js
 Tasks: 航旅纵横 = type=cron,cronexp="41 2 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js
