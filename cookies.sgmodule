@@ -21,4 +21,4 @@ Rewrite: 航旅纵横 = type=http-request,pattern=^https:\/\/cloud\.umetrip\.com
 
 
 [MITM]
-hostname = %INSERT%, *.bilibili.com, *.iqiyi.com, *.smzdm.com, wapside.189.cn:9001, api.m.jd.com, act.10010.com, cccat.io, m.client.10010.com, my.ruanmei.com, api-new.app.acfun.cn, cloud.umetrip.com
+hostname = %INSERT%, *.bilibili.com, *.iqiyi.com, *.smzdm.com, wapside.189.cn:9001, api.m.jd.com, act.10010.com, cccat.io, m.client.10010.com, my.ruanmei.com, api-new.app.acfun.cn, cloud.umetrip.com, wq.jd.com, draw.jdfcloud.com, jdjoy.jd.com, wq.jd.com
