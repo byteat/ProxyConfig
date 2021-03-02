@@ -18,8 +18,8 @@ Tasks: 京东种豆 = type=cron,cronexp="01 2 07-23/1 * * *",wake-system=true,ti
 Tasks: 京东加速 = type=cron,cronexp="11 2 */3 * * *",wake-system=true,timeout=60,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_speed.js
 Tasks: 京东宠汪汪 = type=cron,cronexp="21 2 */3 * * *",wake-system=true,timeout=600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy.js
 Tasks: 京宠汪兑奖 = type=cron,cronexp="01 0 0-16/4 * * *",wake-system=true,timeout=20,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js
-Tasks: 京宠汪助力 = type=cron,cronexp="15 10 * * *",wake-system=true,timeout=600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_run.js
-Tasks: 京宠汪偷积分狗粮 = type=cron,cronexp="10 0-21/3 * * *",wake-system=true,timeout=600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_steal.js
+Tasks: 京宠汪助力 = type=cron,cronexp="1 9 * * *",wake-system=true,timeout=600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_run.js
+Tasks: 京宠汪偷积分狗粮 = type=cron,cronexp="10 0-12/6 * * *",wake-system=true,timeout=600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_steal.js
 Tasks: 京小超 = type=cron,cronexp="11 1-23/5 * * *",wake-system=true,timeout=600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_superMarket.js
 Tasks: 京小超兑奖 = type=cron,cronexp="0 0 0 * * *",wake-system=true,timeout=30,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js
 Tasks: 京东取关 = type=cron,cronexp="13 1 8,14 * * *",wake-system=true,timeout=10,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js
