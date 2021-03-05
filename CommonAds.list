@@ -351,6 +351,7 @@ IP-CIDR,221.204.62.183/32,no-resolve
 DOMAIN-SUFFIX,admobile.top
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
+URL-REGEX,^http:\/\/.*\/goad\/ad\/
 
 # AD Block
 DOMAIN-KEYWORD,admarvel
