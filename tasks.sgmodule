@@ -24,6 +24,7 @@ Tasks: 京小超 = type=cron,cronexp="11 1-23/5 * * *",wake-system=true,timeout=
 Tasks: 京小超兑奖 = type=cron,cronexp="0 0 0 * * *",wake-system=true,timeout=30,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js
 Tasks: 京东取关 = type=cron,cronexp="13 1 8,14 * * *",wake-system=true,timeout=10,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js
 Tasks: 京东直播 = type=cron,cronexp="11 3-7/2 12 * * *",wake-system=true,timeout=20,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live.js
+Tasks: 京东直播红包雨 = type=cron,cronexp="30,31 20-23/1 9,12 3 *",wake-system=true,timeout=1200,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_live_redrain.js
 Tasks: 京东领京豆 = type=cron,cronexp="2 3 0 * * *",wake-system=true,timeout=20,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_bean_home.js
 Tasks: 京东进店 = type=cron,cronexp="6 3 0 * * *",wake-system=true,timeout=20,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_shop.js
 Tasks: 京东赚赚 = type=cron,cronexp="9 3 0 * * *",wake-system=true,timeout=20,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jdzz.js
