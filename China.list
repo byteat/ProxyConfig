@@ -33,7 +33,6 @@ DOMAIN-SUFFIX,amap.com
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,autonavi.com
 DOMAIN-SUFFIX,bababian.com
-DOMAIN-SUFFIX,bafang.com
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,baike.com
 DOMAIN-SUFFIX,bankcomm.com
@@ -41,6 +40,8 @@ DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,binance.im
 DOMAIN-SUFFIX,biqudu.com
 DOMAIN-SUFFIX,biquge.com
 DOMAIN-SUFFIX,bitauto.com
@@ -76,6 +77,7 @@ DOMAIN-SUFFIX,getpodcast.xyz
 DOMAIN-SUFFIX,getpricetag.com
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,haibian.com
+DOMAIN-SUFFIX,hanqiweb.net
 DOMAIN-SUFFIX,haosou.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,hdslb.net
