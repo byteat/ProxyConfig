@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,outlook.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamstatic.com
+
 # Top blocked sites
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,2o7.net
@@ -43,6 +44,8 @@ DOMAIN-SUFFIX,att.com
 DOMAIN-SUFFIX,avgle.com
 DOMAIN-SUFFIX,awsstatic.com
 DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,binance.cc
+DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,bit.ly
 DOMAIN-SUFFIX,bitbucket.org
 DOMAIN-SUFFIX,blogger.com
