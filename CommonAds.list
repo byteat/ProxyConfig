@@ -165,9 +165,6 @@ DOMAIN-SUFFIX,mobileads.google.com
 # ICBC
 URL-REGEX,^http:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/
 
-# IThome
-URL-REGEX,^https?:\/\/dat\.ruanmei\.com\/ithome\/v\d\/(ios\.xml\?r=|si\.json)
-
 # JD
 DOMAIN-SUFFIX,ads.union.jd.com
 DOMAIN-SUFFIX,c-nfa.jd.com
