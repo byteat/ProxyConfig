@@ -56,6 +56,7 @@ DOMAIN-SUFFIX,ads.youtube.com
 DOMAIN-SUFFIX,mtalk.google.com,REJECT
 DOMAIN-SUFFIX,suggestqueries.google.com,REJECT
 URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+&oad
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+ctier
 URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/(ads|.+adformat)
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll
