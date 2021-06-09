@@ -63,7 +63,6 @@ DOMAIN-SUFFIX,ae.bdstatic.com
 DOMAIN-SUFFIX,afd.baidu.com
 DOMAIN-SUFFIX,als.baidu.com
 DOMAIN-SUFFIX,api.cpu.baidu.com
-DOMAIN-SUFFIX,api.mobula.sdk.duapps.com
 DOMAIN-SUFFIX,api.tuisong.baidu.com
 DOMAIN-SUFFIX,b.bdstatic.com
 DOMAIN-SUFFIX,baidustatic.com
@@ -122,7 +121,6 @@ URL-REGEX,^http:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/
 URL-REGEX,^http:\/\/tb1\.bdstatic\.com\/tb\/cms\/ngmis\/adsense\/*\.jpg
 URL-REGEX,^http:\/\/tb2\.bdstatic\.com\/tb\/mobile\/spb\/widget\/jump
 URL-REGEX,^https?:\/\/update\.pan\.baidu\.com\/statistics
-URL-REGEX,^https:\/\/wapwenku\.baidu\.com\/view\/fengchao
 
 # BankComm
 URL-REGEX,^https:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do.+
@@ -314,7 +312,6 @@ DOMAIN-SUFFIX,data.mistat.xiaomi.com
 DOMAIN-SUFFIX,event.ksosoft.com
 DOMAIN-SUFFIX,image.box.xiaomi.com
 DOMAIN-SUFFIX,lxcdn.dl.files.xiaomi.net
-DOMAIN-SUFFIX,mb.yidianzixun.com
 DOMAIN-SUFFIX,migc.g.mi.com
 DOMAIN-SUFFIX,migcreport.g.mi.com
 DOMAIN-SUFFIX,migrate.driveapi.micloud.xiaomi.net
