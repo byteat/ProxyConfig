@@ -366,6 +366,7 @@ DOMAIN-KEYWORD,pingfore
 DOMAIN-KEYWORD,securepubads
 DOMAIN-KEYWORD,supersonicads
 DOMAIN-KEYWORD,tongji
+DOMAIN-KEYWORD,umeng
 DOMAIN-KEYWORD,wlmonitor
 DOMAIN-KEYWORD,zjtoolbar
 
@@ -435,6 +436,7 @@ DOMAIN-SUFFIX,appboy.com
 DOMAIN-SUFFIX,applifier.com
 DOMAIN-SUFFIX,applovin.com
 DOMAIN-SUFFIX,appnext.com
+DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,atdmt.com
 DOMAIN-SUFFIX,baifendian.com
 DOMAIN-SUFFIX,banmamedia.com
@@ -558,7 +560,6 @@ DOMAIN-SUFFIX,tellapart.com
 DOMAIN-SUFFIX,th7.cn
 DOMAIN-SUFFIX,trafficmp.com
 DOMAIN-SUFFIX,uberads.com
-DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umsns.com
 DOMAIN-SUFFIX,umtrack.com
 DOMAIN-SUFFIX,unimhk.com
