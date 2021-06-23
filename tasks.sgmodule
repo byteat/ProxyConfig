@@ -26,17 +26,8 @@ Tasks: 京东领京豆 = type=cron,cronexp="2 3 0 * * *",wake-system=true,timeou
 Tasks: 京东进店 = type=cron,cronexp="6 3 0 * * *",wake-system=true,timeout=20,script-path=Script/jd_scripts/jd_shop.js
 Tasks: 京东赚赚 = type=cron,cronexp="9 3 0 * * *",wake-system=true,timeout=20,script-path=Script/jd_scripts/jd_jdzz.js
 Tasks: 京东十元街 = type=cron,cronexp="12 3 0 * * *",wake-system=true,timeout=20,script-path=Script/jd_scripts/jd_syj.js
-Tasks: 京东超级盲盒 = type=cron,cronexp="0 0,1-23/3 * * *",wake-system=true,timeout=1200,script-path=Script/jd_scripts/jd_mohe.js
-Tasks: 京东明星小店 = type=cron,cronexp="0 1,21 * * *",wake-system=true,timeout=1200,script-path=Script/jd_scripts/jd_star_shop.js
-Tasks: 京喜牧场 = type=cron,cronexp="08 0-23/3 * * *",wake-system=true,timeout=1200,script-path=Script/jd_scripts/jd_jxmc.js
+Tasks: 京东5G超级盲盒 = type=cron,cronexp="0 0,1-23/3 * * *",wake-system=true,timeout=1200,script-path=Script/jd_scripts/jd_mohe.js
 Tasks: 京东金榜创造营 = type=cron,cronexp="5 1,22 * * *",wake-system=true,timeout=1200,script-path=Script/jd_scripts/jd_gold_creator.js
-Tasks: 京东品牌狂欢 = type=cron,cronexp="2 10 * * *",wake-system=true,timeout=1200,script-path=Script/jd_scripts/jd_mcxhd.js
-Tasks: 京喜88红包 = type=cron,cronexp="2 10 * * *",wake-system=true,timeout=1200,script-path=Script/jd_scripts/jd_jxlhb.js
-Tasks: 京东动物联萌 = type=cron,cronexp="10 0-23/2 * * *",wake-system=true,timeout=1200,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_zoo.js
-Tasks: 京东星推官 = type=cron,cronexp="0 0 0 * * *",wake-system=true,timeout=1200,script-path=Script/jd_scripts/jd_xtg.js
-Tasks: 京东手机狂欢城 = type=cron,cronexp="0 0-18/6 * * *",wake-system=true,timeout=1200,script-path=Script/jd_scripts/jd_carnivalcity.js
-Tasks: 京东跳跳乐 = type=cron,cronexp="10,11,21 * * *",wake-system=true,timeout=1200,script-path=Script/jd_scripts/jd_jump.js
-Tasks: 京东互助码 = type=cron,cronexp="0 9 * * 6",wake-system=true,timeout=20,script-path=Script/jd_scripts/jd_get_share_code.js
 Tasks: 京东汽车 = type=cron,cronexp="40 8 * * *",wake-system=1,timeout=3600,script-path=Script/jd_scripts/jd_car.js
 Tasks: 京东汽车兑换 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=Script/jd_scripts/jd_car_exchange.js
 Tasks: 航旅纵横 = type=cron,cronexp="41 2 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js
