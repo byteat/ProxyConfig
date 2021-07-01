@@ -137,9 +137,6 @@ URL-REGEX,^https?:\/\/www\.duokan\.com\/promotion_day
 # Facebook
 DOMAIN-SUFFIX,staticxx.facebook.com
 
-# Flytek
-URL-REGEX,^https?:\/\/imeclient\.openspeech\.cn\/adservice\/
-
 # Google
 DOMAIN-SUFFIX,ads.google.com
 DOMAIN-SUFFIX,adservice.google.com
@@ -269,23 +266,10 @@ DOMAIN-SUFFIX,vmindhls.tc.qq.com
 DOMAIN-SUFFIX,yun-hl.3g.qq.com
 
 URL-REGEX,^http:\/\/.*:80\/gdt\/0\/.*
-URL-REGEX,^https?:\/\/.+\/hls\.cache\.p4p\/
-URL-REGEX,^https?:\/\/.+\/omts\.tc\.qq\.com\/
-URL-REGEX,^https?:\/\/.+\/variety\.tc\.qq\.com\/
-URL-REGEX,^https?:\/\/.+\/vlive\.qqvideo\.tc\.qq\.com\/
 URL-REGEX,^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/
-URL-REGEX,^https?:\/\/api5\.futunn\.com\/ad\/
-URL-REGEX,^https?:\/\/bla\.gtimg\.com\/qqlive\/\d{6}.+\.png
-URL-REGEX,^https?:\/\/imgcache\.qq\.com\/qqlive\/
-URL-REGEX,^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/
 URL-REGEX,^https?:\/\/mp\.weixin\.qq\.com\/mp\/(ad_complaint|ad_video|advertisement_report|getappmsgad\?f=|report)
 URL-REGEX,^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info
-URL-REGEX,^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getBannerAds|getFullScreenPic|getNewsRemoteConfig|getQQNewsRemoteConfig|searchHotCatList|upLoadLoc)
-URL-REGEX,^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6}
-URL-REGEX,^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons
 URL-REGEX,^https?:\/\/szextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/
-URL-REGEX,^https?:\/\/vv\.video\.qq\.com\/getvmind\?
-URL-REGEX,^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads
 
 # Twitter
 DOMAIN-SUFFIX,ads.twitter.com
