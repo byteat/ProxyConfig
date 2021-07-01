@@ -115,11 +115,9 @@ DOMAIN-SUFFIX,zz.bdstatic.com
 URL-REGEX,^https?:\/\/api\d\.tuisong\.baidu\.com
 URL-REGEX,^https?:\/\/sa\d\.tuisong\.baidu\.com
 URL-REGEX,(ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map)?\.(baidu|n\.shifen)\.com
-URL-REGEX,^http:\/\/fcvbjbcebos\.baidu\.com\/.+\.mp4
 URL-REGEX,^http:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/
 URL-REGEX,^http:\/\/tb1\.bdstatic\.com\/tb\/cms\/ngmis\/adsense\/*\.jpg
 URL-REGEX,^http:\/\/tb2\.bdstatic\.com\/tb\/mobile\/spb\/widget\/jump
-URL-REGEX,^https?:\/\/update\.pan\.baidu\.com\/statistics
 
 # BankComm
 URL-REGEX,^https:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do.+
