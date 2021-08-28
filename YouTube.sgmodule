@@ -4,8 +4,8 @@
 
 [Rule]
 DOMAIN-SUFFIX,ads.youtube.com,REJECT
-DOMAIN-SUFFIX,mtalk.google.com,REJECT
-DOMAIN-SUFFIX,suggestqueries.google.com,REJECT
+DOMAIN-SUFFIX,mtalk.google.com,REJECT-DROP
+DOMAIN-SUFFIX,suggestqueries.google.com,REJECT-DROP
 URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost,REJECT
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/(ads|.+adformat),REJECT
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll,REJECT
@@ -13,7 +13,7 @@ URL-REGEX,^https?:\/\/.+\.youtube\.com\/pagead\/,REJECT
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/ptracking\?,REJECT
 URL-REGEX,^https?:\/\/m\.youtube\.com\/_get_ads/,REJECT
 URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/.+ad_break,REJECT
-URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+(ad|log)_,REJECT
+URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+(ad|log)_,REJECT-DROP
 
 [Script]
 
