@@ -3,11 +3,22 @@
 #!system=ios
 
 [Rule]
+DOMAIN,thirdparty.biliapi.com,REJECT
+DOMAIN,cm.bilibili.com,REJECT
+URL-REGEX,^https?:\/\/api\.bilibili\.com\/pgc\/season\/rank\/cn,REJECT
+URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/resource\/abtest,REJECT
+URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v\d\/dataflow\/repor,REJECT
+URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v\d\/param,REJECT
+URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v\d\/rank.*rid=(168|5),REJECT
+URL-REGEX,^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/AppInit,REJECT // 开屏广告和活动
+URL-REGEX,^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash,REJECT // 和上条相同的开屏广告
+AND, ((USER-AGENT,tf:cu), (NOT,((DOMAIN-SUFFIX,bilibili.com))), (NOT,((DOMAIN-SUFFIX,hdslb.com))), (NOT,((DOMAIN-SUFFIX,acgvideo.com)))),REJECT
+
 // defaultword 搜索框默认填充；square 热搜
 // URL-REGEX,https://app.bilibili.com/x/v2/search/(defaultword|square),REJECT
 
 // 开屏广告
-URL-REGEX, ^https://app\.bilibili\.com/x/v2/splash/list, REJECT
+URL-REGEX, ^https://app\.bilibili\.com/x/v2/splash/list,REJECT
 
 [Script]
 // 整体栏的布局修改(包括“首页”右上角、下边 tab 等)
