@@ -49,22 +49,3 @@ URL-REGEX,^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show
 URL-REGEX,^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo
 URL-REGEX,^https?:\/\/iface2\.iqiyi\.com\/fusion\/3\.0\/fusion_switch
 URL-REGEX,^https?:\/\/paopao\w?\.qiyipic\.com
-
-# Youtube
-
-DOMAIN-SUFFIX,ads.youtube.com
-DOMAIN-SUFFIX,mtalk.google.com,REJECT
-DOMAIN-SUFFIX,suggestqueries.google.com,REJECT
-URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+&oad
-URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+ctier
-URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/api\/stats\/(ads|.+adformat)
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/pagead\/
-URL-REGEX,^https?:\/\/.+\.youtube\.com\/ptracking\?
-URL-REGEX,^https?:\/\/m\.youtube\.com\/_get_ads/
-URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/.+ad_break
-URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+(ad|log)_
-
-# Youtube++
-URL-REGEX,^https?:\/\/api\.catch\.gift\/api\/v3\/pagead\/
