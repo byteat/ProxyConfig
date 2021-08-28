@@ -1,18 +1,25 @@
 #!name= BiliBili
-#!desc= Remove BiliBili Ads (BiliBili Version:6.2.1), from onewayticket255
+#!desc= Remove BiliBili Ads, fork from : https://github.com/yjqiang/surge_scripts/blob/main/modules/bilibili/bilibili.sgmodule
 #!system=ios
 
 [Rule]
-URL-REGEX,https://app.bilibili.com/x/v2/(splash|search/(defaultword|square)),REJECT
-URL-REGEX,https://api.bilibili.com/x/v2/dm/ad,REJECT
+// defaultword 搜索框默认填充；square 热搜
+// URL-REGEX,https://app.bilibili.com/x/v2/search/(defaultword|square),REJECT
 
-[MITM]
-hostname = %APPEND% api.bilibili.com, app.bilibili.com, api.live.bilibili.com
+// 开屏广告
+URL-REGEX, ^https://app\.bilibili\.com/x/v2/splash/list, REJECT
 
 [Script]
-bilibili tab = type=http-response,requires-body=1,max-size=0,pattern=https://app.bilibili.com/x/resource/show/tab\?access_key,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20tab.js
-bilibili feed = type=http-response,requires-body=1,max-size=0,pattern=https://app.bilibili.com/x/v2/feed/index\?access_key,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20feed.js
-bilibili account = type=http-response,requires-body=1,max-size=0,pattern=https://app.bilibili.com/x/v2/account/mine\?access_key,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20account.js
-bilibili view = type=http-response,requires-body=1,max-size=0,pattern=https://app.bilibili.com/x/v2/view\?access_key,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20view%20relate.js
-bilibili reply = type=http-response,requires-body=1,max-size=0,pattern=https://api.bilibili.com/x/v2/reply/main\?access_key,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20reply.js
-bilibili live = type=http-response,requires-body=1,max-size=0,pattern=https://api.live.bilibili.com/xlive/app-room/v1/index/getInfoByRoom\?access_key,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20live.js
+// 整体栏的布局修改(包括“首页”右上角、下边 tab 等)
+http-response ^https://app\.bilibili\.com/x/resource/show/tab(/v2)?\?access_key requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/bilibili/bilibili_tab.js
+
+// “首页”的推荐
+http-response ^https://app\.bilibili\.com/x/v2/feed/index\?access_key requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/bilibili/bilibili_feed.js
+
+// “我的”的修改
+http-response ^https://app\.bilibili\.com/x/v2/account/mine\?access_key requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/bilibili/bilibili_mine.js
+
+// http-response ^https://api\.bilibili\.com/x/v2/reply/main 在 app 改为了 https://app.bilibili.com/bilibili.main.community.reply.v1.Reply/MainList 评论区
+
+[MITM]
+hostname = %APPEND% app.bilibili.com
