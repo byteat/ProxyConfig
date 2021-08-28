@@ -1,6 +1,6 @@
   
 #!name=Zhihu
-#!desc=Zhihu app removes ads.
+#!desc=Zhihu app removes ads. Fork from : Qiqiang
 #!system=ios
 
 [Rule]
