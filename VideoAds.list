@@ -4,24 +4,6 @@ URL-REGEX,^https?:\/\/api-new\.acfunchina\.com\/rest\/app\/flash\/screen\/list
 URL-REGEX,^https?:\/\/api-new\.app\.acfun\.cn\/rest\/app\/flash\/screen\/list
 URL-REGEX,^https?:\/\/apipc\.app\.acfun\.cn\/v\d\/open\/
 
-# Bilibili
-DOMAIN,thirdparty.biliapi.com
-DOMAIN,cm.bilibili.com
-URL-REGEX,^https?:\/\/api\.bilibili\.com\/pgc\/season\/rank\/cn
-URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/resource\/abtest
-URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v\d\/dataflow\/repor
-URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v\d\/param
-URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v\d\/rank.*rid=(168|5)
-URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v\d\/search\/(defaultword|hot|recommend|resource)
-URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v\d\/splash
-URL-REGEX,^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/AppInit // 开屏广告和活动
-URL-REGEX,^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash // 和上条相同的开屏广告
-AND, ((USER-AGENT,tf:cu), (NOT,((DOMAIN-SUFFIX,bilibili.com))), (NOT,((DOMAIN-SUFFIX,hdslb.com))), (NOT,((DOMAIN-SUFFIX,acgvideo.com))))
-IP-CIDR,120.92.137.98/32,no-resolve
-IP-CIDR,120.92.143.125/32,no-resolve
-IP-CIDR,120.92.143.238/32,no-resolve
-IP-CIDR,120.92.150.125/32,no-resolve
-
 # iQIYI
 DOMAIN-SUFFIX,a.ckm.iqiyi.com
 DOMAIN-SUFFIX,ad.m.iqiyi.com
