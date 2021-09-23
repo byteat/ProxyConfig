@@ -1,0 +1,11 @@
+#!name= Panel Module
+#!desc= 各种面板信息的模块
+#!system=ios
+
+[Panel]
+Net-info-panel = title="网络状态",content="请刷新",style=info,script-name=net-info-panel
+Sub_info = script-name=Sub_info
+
+[Script]
+Net-info-panel = type=generic,upadate-interval=1,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tools/Panels/NetInfo/net-info-panel.js
+Sub_info = type=generic,timeout=10,upadate-interval=1,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js,argument=url=https%3A%2F%2Fe-neta.xyz%2Flink%2F63PTFJOVMRC4YJdf%3Fclash%3D1&reset_day=1&title=E-Net
