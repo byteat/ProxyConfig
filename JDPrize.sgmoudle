@@ -1,0 +1,9 @@
+#!name= 京东比价
+#!desc= Fork from : https://github.com/Tartarus2014/Script/blob/master/jd_price.js
+#!system=ios
+
+[Script]
+http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/jdjf_price.js, tag=京东比价
+
+[MITM]
+hostname = %APPEND% api.m.jd.com
