@@ -1,5 +1,5 @@
 #!name= BiliBili
-#!desc= Remove BiliBili Ads, fork from : https://github.com/yjqiang/surge_scripts/blob/main/modules/bilibili/bilibili_big.sgmodule
+#!desc= Remove BiliBili Ads, fork from : https://github.com/yjqiang/surge_scripts/blob/main/modules/bilibili/bilibili.sgmodule
 #!system=ios
 
 [Rule]
@@ -19,9 +19,6 @@ AND, ((USER-AGENT,tf:cu), (NOT,((DOMAIN-SUFFIX,bilibili.com))), (NOT,((DOMAIN-SU
 
 // 开屏广告
 URL-REGEX, ^https://app\.bilibili\.com/x/v2/splash/list, REJECT
-
-// 搭配 protobuf 的（否则抓不到。。。）
-DOMAIN-SUFFIX, grpc.biliapi.net, REJECT
 
 [Script]
 // 整体栏的布局修改(包括“首页”右上角、下边 tab 等)
