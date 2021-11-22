@@ -3,7 +3,7 @@ URL-REGEX,^http:\/\/image1\.chinatelecom-ec\.com\/images\/.+\/\d{13}\.jpg
 
 # 10010
 DOMAIN-SUFFIX,m1.ad.10010.com
-DOMAIN-SUFFIX,smartad.10010.com
+//DOMAIN-SUFFIX,smartad.10010.com
 URL-REGEX,^https?:\/\/m\.client\.10010\.com\/.*\/(get_client_adv|get_startadv|getHomePageAd|getHomePageEhall|getWelcomeAd|getTodayCommendAd|choiceFloorAd)
 URL-REGEX,^http:\/\/m1\.ad\.10010\.com\/noticeMag\/images\/imageUpload\/2\d{3}
 URL-REGEX,^http:\/\/res\.mall\.10010\.cn\/mall\/common\/js\/fa\.js?referer=
