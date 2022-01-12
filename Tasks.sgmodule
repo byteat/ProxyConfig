@@ -12,16 +12,10 @@ Tasks: iQIYI = type=cron,cronexp="31 1 0 * * *",wake-system=true,timeout=10,scri
 Tasks: 什么值得买 = type=cron,cronexp="38 1 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js
 Tasks: 京东签到 = type=cron,cronexp="59 1 0 * * *",wake-system=true,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 Tasks: 京东种豆 = type=cron,cronexp="01 2 07-23/1 * * *",wake-system=true,timeout=600,script-path=Script/jd_scripts/jd_plantBean.js
-Tasks: 京东宠汪汪 = type=cron,cronexp="21 2,3 * * * *",wake-system=true,timeout=600,script-path=Script/jd_scripts/jd_joy.js
-Tasks: 京宠汪助力 = type=cron,cronexp="31 9 * * *",wake-system=true,timeout=600,script-path=Script/jd_scripts/jd_joy_run.js
 Tasks: 京小超 = type=cron,cronexp="11 */2 * * *",wake-system=true,timeout=600,script-path=Script/jd_scripts/jd_superMarket.js
-Tasks: 京小超兑奖 = type=cron,cronexp="0 0 * * *",wake-system=true,timeout=300,script-path=Script/jd_scripts/jd_blueCoin.js
 Tasks: 京东取关 = type=cron,cronexp="13 1 8,14 * * *",wake-system=true,timeout=10,script-path=Script/jd_scripts/jd_unsubscribe.js
 Tasks: 京东健康社区 = type=cron,cronexp="3 0-23/4 * * *",wake-system=true,timeout=1200,script-path=Script/jd_scripts/jd_health.js
 Tasks: 京东领额外京豆 = type=cron,cronexp="2 3 0 * * *",wake-system=true,timeout=20,script-path=Script/jd_scripts/jd_bean_home.js
-Tasks: 京东进店领豆 = type=cron,cronexp="6 3 0 * * *",wake-system=true,timeout=20,script-path=Script/jd_scripts/jd_shop.js
-Tasks: 京东赚赚 = type=cron,cronexp="9 3 0 * * *",wake-system=true,timeout=20,script-path=Script/jd_scripts/jd_jdzz.js
-Tasks: 京东赚豆 = type=cron,cronexp="12 3 0 * * *",wake-system=true,timeout=20,script-path=Script/jd_scripts/jd_syj.js
 Tasks: 京东汽车 = type=cron,cronexp="40 8 * * *",wake-system=1,timeout=3600,script-path=Script/jd_scripts/jd_car.js
 Tasks: 京东汽车兑换 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=Script/jd_scripts/jd_car_exchange.js
 Tasks: 航旅纵横 = type=cron,cronexp="41 2 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js
