@@ -7,7 +7,7 @@ Rewrite: 10000 = type=http-request,pattern=^https:\/\/wapside.189.cn:9001\/api\/
 Rewrite: Bilibili漫画 = type=http-request,pattern=https:\/\/manga\.bilibili\.com\/.*\.User\/GetWallet,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
 Rewrite: Bilibili直播 = type=http-request,pattern=^https:\/\/(www|live)\.bilibili\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js
 Rewrite: Checkin Cookie = type=http-request, pattern=https:\/\/cccat\.io,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
-Rewrite: iQIYI签到 = type=http-request,pattern=https?:\/\/.*\.iqiyi\.com\/.*authcookie=,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+Rewrite: iQIYI签到 = type=http-request,pattern=^https:\/\/passport\.iqiyi\.com\/apis\/user\/info\.action,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 Rewrite: IThome = type=http-request,pattern=^https:\/\/my\.ruanmei\.com\/api\/usersign\/getsigninfo?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ithome/ithome.cookie.js
 Rewrite: 京东签到 = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean(Index|GroupStageIndex),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 Rewrite: 宠汪汪助力更新Token = type=http-response,pattern=^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/addUser\?code=, requires-body=1, max-size=0, script-path=Script/jd_scripts/jd_joy_run.js
@@ -17,4 +17,4 @@ Rewrite: 航旅纵横 = type=http-request,pattern=^https:\/\/cloud\.umetrip\.com
 
 
 [MITM]
-hostname = %INSERT%, *.bilibili.com, *.iqiyi.com, *.smzdm.com, wapside.189.cn:9001, api.m.jd.com, cccat.io, my.ruanmei.com, cloud.umetrip.com, wq.jd.com, draw.jdfcloud.com, jdjoy.jd.com, wq.jd.com
+hostname = %INSERT%, *.bilibili.com, *.smzdm.com, wapside.189.cn:9001, api.m.jd.com, cccat.io, my.ruanmei.com, cloud.umetrip.com, wq.jd.com, draw.jdfcloud.com, jdjoy.jd.com, password.iqiyi.com, wq.jd.com
