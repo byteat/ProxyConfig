@@ -319,17 +319,6 @@ DOMAIN-SUFFIX,ws.ksmobile.net
 DOMAIN-SUFFIX,wtradv.market.xiaomi.com
 DOMAIN-SUFFIX,xmpush.xiaomi.com
 
-# Zhihu
-URL-REGEX,^https:\/\/api\.zhihu\.com\/wx-minapp-push\/hot_recommendation
-URL-REGEX,^http:\/\/wxsnsdy*\.wxs\.qq\.com\/.*\/ads
-IP-CIDR,221.204.62.183/32,no-resolve
-
-# Zhcw
-DOMAIN-SUFFIX,admobile.top
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
-DOMAIN-SUFFIX,pglstatp-toutiao.com
-URL-REGEX,^http:\/\/.*\/goad\/ad\/
-
 # AD Block
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
