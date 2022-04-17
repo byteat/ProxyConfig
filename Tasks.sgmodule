@@ -8,7 +8,7 @@ Tasks: B站漫画 = type=cron,cronexp="21 0 0 * * *",wake-system=true,timeout=10
 Tasks: B站直播 = type=cron,cronexp="23 0 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js
 Tasks: IThome = type=cron,cronexp="26 1 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ithome/ithome.js
 Tasks: iQIYI = type=cron,cronexp="31 1 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
-Tasks: 什么值得买 = type=cron,cronexp="38 1 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js
+Tasks: 什么值得买 = type=cron,cronexp="38 1 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js
 Tasks: 京东签到 = type=cron,cronexp="59 1 0 * * *",wake-system=true,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 Tasks: 京东种豆 = type=cron,cronexp="01 2 07-23/1 * * *",wake-system=true,timeout=600,script-path=Script/jd_scripts/jd_plantBean.js
 Tasks: 京小超 = type=cron,cronexp="11 */2 * * *",wake-system=true,timeout=600,script-path=Script/jd_scripts/jd_superMarket.js
