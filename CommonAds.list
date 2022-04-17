@@ -172,18 +172,11 @@ URL-REGEX,^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/
 URL-REGEX,^https?:\/\/cc\.m\.jd\.com\/client\.action\?functionId=redpoint
 URL-REGEX,^https?:\/\/img12\.360buyimg\.com\/.+width=\d{4}&height=\d{4}
 
-# Liandongyunzuche
-URL-REGEX,^https?:\/\/m\.ldygo\.com\/los\/zuche-intf-rent\.showAdvertList // 最新活动
-URL-REGEX,^https?:\/\/m\.ldygo\.com\/los\/zuche-intf-rent\.showSRAdvertList // 开屏广告
-
 # Meituan
 URL-REGEX,^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/.+\.(gif|jpg|jpg\.webp)$
 URL-REGEX,^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+\.jpg
 URL-REGEX,^https?:\/\/p\d\.meituan\.net\/movie\/[A-Za-z0-9]+\.jpg\?may_covertWebp
 URL-REGEX,^https?:\/\/s3plus\.meituan\.net\/.+\/linglong\/.+\.(gif|jpg|mp4)
-
-# NMGJX
-URL-REGEX,^https?:\/\/sf\d{1}\-ttcdn\-tos\.pstatp\.com\/obj\/ad-pattern\/
 
 # PDD
 URL-REGEX,^https?:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash
@@ -225,12 +218,6 @@ URL-REGEX,^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(actionad|sdkad)\
 URL-REGEX,^https?:\/\/simg\.s\.weibo\.com\/.+_ios\d{2}\.gif
 URL-REGEX,^https?:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua
 URL-REGEX,^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads
-
-# Smzdm
-URL-REGEX,^https?:\/\/api\.smzdm\.com\/v\d\/util\/loading
-URL-REGEX,^https?:\/\/app-api\.smzdm\.com\/util\/loading
-URL-REGEX,^https?:\/\/app-api\.smzdm\.com\/util\/banner
-URL-REGEX,^https?:\/\/s\d\.zdmimg\.com\/www\/api\/v\d\/api\/thirdAd\.php
 
 # Telegram
 IP-CIDR6,2001:67c:4e8::/48,no-resolve
