@@ -15,3 +15,4 @@ Tasks: 京小超 = type=cron,cronexp="11 */2 * * *",wake-system=true,timeout=600
 Tasks: 京东取关 = type=cron,cronexp="13 1 8,14 * * *",wake-system=true,timeout=10,script-path=Script/jd_scripts/jd_unsubscribe.js
 Tasks: 京东健康社区 = type=cron,cronexp="3 0-23/4 * * *",wake-system=true,timeout=1200,script-path=Script/jd_scripts/jd_health.js
 Tasks: 京东领额外京豆 = type=cron,cronexp="2 3 0 * * *",wake-system=true,timeout=20,script-path=Script/jd_scripts/jd_bean_home.js
+Tasks: 京东价格保护 = type=cron,cronexp="5 0 * * *",wake-system=true,timeout=20,script-path=https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js
