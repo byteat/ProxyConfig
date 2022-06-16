@@ -1,9 +1,7 @@
 # Unbreak
 # > Apple
 DOMAIN-SUFFIX,me.com
-# > Tencent
-DOMAIN,livew.l.qq.com
-DOMAIN,vd.l.qq.com
+
 # > WeChat
 AND,((OR,((DEST-PORT,443), (DEST-PORT,80), (DEST-PORT,8080))), (IP-CIDR,129.226.3.47/32,no-resolve)), (PROTOCOL,TCP))
 DOMAIN-SUFFIX,servicewechat.com
