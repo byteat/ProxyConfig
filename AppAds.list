@@ -1,0 +1,52 @@
+# 10000
+URL-REGEX,^http:\/\/image1\.chinatelecom-ec\.com\/images\/.+\/\d{13}\.jpg
+
+# 10010
+DOMAIN-SUFFIX,m1.ad.10010.com
+//DOMAIN-SUFFIX,smartad.10010.com
+URL-REGEX,^https?:\/\/m\.client\.10010\.com\/.*\/(get_client_adv|get_startadv|getHomePageAd|getHomePageEhall|getWelcomeAd|getTodayCommendAd|choiceFloorAd)
+URL-REGEX,^http:\/\/m1\.ad\.10010\.com\/noticeMag\/images\/imageUpload\/2\d{3}
+URL-REGEX,^http:\/\/res\.mall\.10010\.cn\/mall\/common\/js\/fa\.js?referer=
+
+
+# 51job
+URL-REGEX,^http:\/\/api\.51job\.com\/api\/market\/adtrace\.php
+URL-REGEX,^http:\/\/appapi\.51job\.com\/api\/market\/get_advertise\.php\?format=json&position=launch
+
+# Amap
+URL-REGEX,^https?:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/
+URL-REGEX,^https?:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init
+
+# Apple
+DOMAIN,ocsp.apple.com // 证书验证服务器
+DOMAIN-SUFFIX,iadsdk.apple.com
+DOMAIN-SUFFIX,unityads.unity3d.com
+
+# BankComm
+URL-REGEX,^https:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do.+
+URL-REGEX,^https:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do
+
+# CmbChina
+URL-REGEX,^https:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
+
+# Dongchedi
+URL-REGEX,^https:\/\/\w{2}\.snssdk\.com\/api\/ad\/
+URL-REGEX,^https:\/\/\w{2}\.snssdk\.com\/motor\/ad\/
+
+# Duokan
+URL-REGEX,^https?:\/\/www\.duokan\.com\/pictures?
+URL-REGEX,^https?:\/\/www\.duokan\.com\/promotion_day
+
+# ICBC
+URL-REGEX,^http:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/
+
+# ITHome
+URL-REGEX,^https:\/\/dat.ruanmei.com\/ithome\/v\d\/
+
+# PDD
+URL-REGEX,^https?:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash
+
+# Telegram
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23d::/48,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,no-resolve
