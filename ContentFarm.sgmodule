@@ -1,0 +1,18 @@
+#!name= Content Farm Blocker
+#!desc= 屏蔽内容农场
+#!system=ios
+
+[URL Rewrite]
+# 百度网页跳转至手机网页版本
+www.baidu.com(?!.*?(\.(css|js|jpeg|jpg|png|php|gif|ico|mp3|mp4|svg|tff|PNG|woff|woff2|m3u8))) m.baidu.com 302
+
+
+[Script]
+知道搜索广告(baidu) = type=http-response,pattern="^https?:\/\/(zhidao)\.baidu\.com\/(question|index|\?fr|\?word)",requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/surge_baidu.zhidao.js,script-update-interval=0
+搜索首页广告(baidu) = type=http-response,pattern="^https?:\/\/(www|m)\.baidu\.com(/$|\/\?ref.*)(?!.*?(\.(css|js|jpeg|jpg|png|php|gif|ico|mp3|mp4|svg|tff|PNG|woff|woff2|m3u8)))",requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/surge_baidu.index.js,script-update-interval=0
+搜索结果广告(baidu) = type=http-response,pattern="^https?:\/\/(www|m)\.baidu\.com(\/s\?word.*|\/from.*?\/s\?word.*|\/from.*?word=.*)",requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/surge_baidu.js,script-update-interval=0
+内容农场(bing) = type=http-response,pattern="https?:\/\/(www\.bing)(\.\w{2,4}){1,2}\/(search\?.*|\?sa=|\?FORM)(?!.*?(apps=))",requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js,script-update-interval=0
+内容农场(google) = type=http-response,pattern="https?:\/\/(www\.google)(\.\w{2,4}){1,2}\/(search\?|\?sa=|\?FORM)(?!.*?(apps=))",requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js,script-update-interval=0
+
+[MITM]
+hostname = %APPEND% www.bing.com, *.google.*, www.baidu.com, m.baidu.com, zhidao.baidu.com
