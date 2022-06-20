@@ -15,4 +15,4 @@ www.baidu.com(?!.*?(\.(css|js|jpeg|jpg|png|php|gif|ico|mp3|mp4|svg|tff|PNG|woff|
 内容农场(google) = type=http-response,pattern="https?:\/\/(www\.google)(\.\w{2,4}){1,2}\/(search\?|\?sa=|\?FORM)(?!.*?(apps=))",requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js,script-update-interval=0
 
 [MITM]
-hostname = %APPEND% www.bing.com, *.google.*, www.baidu.com, m.baidu.com, zhidao.baidu.com
+hostname = %APPEND% www.bing.com, www.google.*, www.baidu.com, m.baidu.com, zhidao.baidu.com
