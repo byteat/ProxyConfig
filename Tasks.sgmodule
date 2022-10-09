@@ -11,5 +11,6 @@ Tasks: iQIYI = type=cron,cronexp="31 1 0 * * *",wake-system=true,timeout=10,scri
 Tasks: 什么值得买 = type=cron,cronexp="38 1 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js
 Tasks: 京东签到 = type=cron,cronexp="59 1 0 * * *",wake-system=true,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 Tasks: 京东种豆 = type=cron,cronexp="01 2 07-23/1 * * *",wake-system=true,timeout=600,script-path=Script/jd_scripts/jd_plantBean.js
+Tasks: 京东健康社区 = type=cron,cronexp="13 1,6,22 * * *",wake-system=true,timeout=3600,script-path=Script/jd_scripts/jd_health.js
 Tasks: 京东取关 = type=cron,cronexp="13 1 8,14 * * *",wake-system=true,timeout=10,script-path=Script/jd_scripts/jd_unsubscribe.js
 Tasks: 京东领额外京豆 = type=cron,cronexp="2 3 0 * * *",wake-system=true,timeout=20,script-path=Script/jd_scripts/jd_bean_home.js
