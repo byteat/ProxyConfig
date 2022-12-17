@@ -2,6 +2,7 @@
 # > Apple
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,cn
+DOMAIN,y.minixin.me
 
 # > WeChat
 AND,((OR,((DEST-PORT,443), (DEST-PORT,80), (DEST-PORT,8080))), (OR,((IP-CIDR,129.226.3.47/32,no-resolve), (IP-CIDR,101.32.104.41/16,no-resolve))), (PROTOCOL,TCP))
