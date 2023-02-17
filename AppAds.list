@@ -16,6 +16,10 @@ URL-REGEX,^http:\/\/appapi\.51job\.com\/api\/market\/get_advertise\.php\?format=
 # Amap
 URL-REGEX,^https?:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/
 URL-REGEX,^https?:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init
+URL-REGEX,^https?:\/\/amap\-aos\-info\-nogw\.amap\.com\/ws\/aos\/alimama\/
+URL-REGEX,^https?:\/\/m\d\.amap\.com\/ws\/message\/notice\/list
+URL-REGEX,^https?:\/\/render\-oss\-cdn\.amap\.com\/render\/studio-dev\/image\/
+URL-REGEX,^https?:\/\/sns\.amap\.com\/ws\/msgbox\/pull
 
 # Apple
 DOMAIN,ocsp.apple.com // 证书验证服务器
@@ -41,7 +45,7 @@ URL-REGEX,^https?:\/\/www\.duokan\.com\/promotion_day
 URL-REGEX,^http:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/
 
 # ITHome
-URL-REGEX,^https:\/\/dat.ruanmei.com\/ithome\/v\d\/
+URL-REGEX,^https:\/\/dat\.ruanmei\.com\/ithome\/v\d\/
 
 # PDD
 URL-REGEX,^https?:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash
