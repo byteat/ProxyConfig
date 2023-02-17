@@ -16,9 +16,9 @@ URL-REGEX,^http:\/\/appapi\.51job\.com\/api\/market\/get_advertise\.php\?format=
 # Amap
 URL-REGEX,^https?:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/
 URL-REGEX,^https?:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init
-URL-REGEX,^https?:\/\/amap\-aos\-info\-nogw\.amap\.com\/ws\/aos\/alimama\/
+URL-REGEX,^https?:\/\/amap-aos-info-nogw\.amap\.com\/ws\/aos\/alimama\/
 URL-REGEX,^https?:\/\/m\d\.amap\.com\/ws\/message\/notice\/list
-URL-REGEX,^https?:\/\/render\-oss\-cdn\.amap\.com\/render\/studio-dev\/image\/
+URL-REGEX,^https?:\/\/render-oss-cdn\.amap\.com\/render\/studio-dev\/image\/
 URL-REGEX,^https?:\/\/sns\.amap\.com\/ws\/msgbox\/pull
 
 # Apple
