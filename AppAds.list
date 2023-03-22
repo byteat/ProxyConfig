@@ -26,20 +26,12 @@ DOMAIN,ocsp.apple.com // 证书验证服务器
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,unityads.unity3d.com
 
-# BankComm
-URL-REGEX,^https:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do.+
-URL-REGEX,^https:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do
-
 # CmbChina
 URL-REGEX,^https:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
 
 # Dongchedi
 URL-REGEX,^https:\/\/\w{2}\.snssdk\.com\/api\/ad\/
 URL-REGEX,^https:\/\/\w{2}\.snssdk\.com\/motor\/ad\/
-
-# Duokan
-URL-REGEX,^https?:\/\/www\.duokan\.com\/pictures?
-URL-REGEX,^https?:\/\/www\.duokan\.com\/promotion_day
 
 # ICBC
 URL-REGEX,^http:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/
