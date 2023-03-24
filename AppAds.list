@@ -29,6 +29,8 @@ DOMAIN-SUFFIX,unityads.unity3d.com
 
 # CmbChina
 URL-REGEX,^https:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
+URL-REGEX,^https:\/\/*\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec
+URL-REGEX,^https:\/\/*\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.adrender\.api\.AdWork\/(getAdsBySlotId|getMultipleAdsV2)
 
 # Dongchedi
 URL-REGEX,^https:\/\/\w{2}\.snssdk\.com\/api\/ad\/
