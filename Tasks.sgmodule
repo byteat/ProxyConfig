@@ -3,8 +3,7 @@
 #!system=ios
 
 [Script]
-Tasks: Checkin Cookie版 = type=cron,cronexp="1 0 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
+#Tasks: Checkin Cookie版 = type=cron,cronexp="1 0 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
 Tasks: B站漫画 = type=cron,cronexp="21 0 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
-Tasks: B站直播 = type=cron,cronexp="23 0 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js
 Tasks: IThome = type=cron,cronexp="26 1 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ithome/ithome.js
 Tasks: 什么值得买 = type=cron,cronexp="38 1 0 * * *",wake-system=true,timeout=10,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js
