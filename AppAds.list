@@ -32,10 +32,10 @@ URL-REGEX,^https:\/\/pic1cdn\.cmbchina\.com\/appinitads\/
 URL-REGEX,^https:\/\/*\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec
 URL-REGEX,^https:\/\/*\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.adrender\.api\.AdWork\/(getAdsBySlotId|getMultipleAdsV2)
 
-# Dongchedi
-URL-REGEX,^https:\/\/\w{2}\.snssdk\.com\/api\/ad\/
-URL-REGEX,^https:\/\/\w{2}\.snssdk\.com\/motor\/ad\/
+# DCar
 URL-REGEX,^https:\/\/api5\-normal\-lf\.dcarapi\.com\/motor\/ad\/
+URL-REGEX,^https:\/\/ib\.snssdk\.com\/api\/ad\/
+URL-REGEX,^https:\/\/ib\.snssdk\.com\/motor\/ad\/
 
 # ICBC
 URL-REGEX,^http:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/
