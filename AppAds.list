@@ -35,6 +35,7 @@ URL-REGEX,^https:\/\/*\.bas\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.adrender\
 # Dongchedi
 URL-REGEX,^https:\/\/\w{2}\.snssdk\.com\/api\/ad\/
 URL-REGEX,^https:\/\/\w{2}\.snssdk\.com\/motor\/ad\/
+URL-REGEX,^https:\/\/api5\-normal\-lf\.dcarapi\.com\/motor\/ad\/
 
 # ICBC
 URL-REGEX,^http:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/
