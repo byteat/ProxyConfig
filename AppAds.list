@@ -38,7 +38,7 @@ URL-REGEX,^https:\/\/ib\.snssdk\.com\/api\/ad\/
 URL-REGEX,^https:\/\/ib\.snssdk\.com\/motor\/ad\/
 
 # Deepal
-URL-REGEX,^https:\/\/app\-api\.deepal\.com.cn\/appapi\/v\1\/m_app\/ad/\startPage
+URL-REGEX,^https:\/\/app\-api\.deepal\.com\.cn\/appapi\/v\1\/m_app\/ad/\startPage
 
 # ICBC
 URL-REGEX,^http:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/
