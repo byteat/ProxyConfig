@@ -47,6 +47,8 @@ URL-REGEX,^http://v.icbc.com.cn/userfiles/Resources/WAP/advertisement/
 # ITHome
 URL-REGEX,^https://dat.ruanmei.com/ithome/v\d/
 
+# JD
+URL-REGEX,^https://api.m.jd.com/client.action\?functionId=start
 # PDD
 URL-REGEX,^https?://api.yangkeduo.com/api/cappuccino/splash
 
