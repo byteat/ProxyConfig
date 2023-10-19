@@ -1,7 +1,7 @@
-# 10000
+# > 10000
 URL-REGEX,^http://image1.chinatelecom-ec.com/images/.+/\d{13}.jpg
 
-# 10010
+# > 10010
 DOMAIN-SUFFIX,m1.ad.10010.com
 DOMAIN-SUFFIX,smartad.10010.com
 URL-REGEX,^https?://m.client.10010.com/.*/(advertFlow|get_client_adv|get_startadv|getHomePageAd|getHomePageEhall|getWelcomeAd|getTodayCommendAd|choiceFloorAd)
@@ -10,11 +10,11 @@ URL-REGEX,^http://res.mall.10010.cn/mall/common/js/fa.js?referer=
 
 
 
-# 51job
+# > 51job
 URL-REGEX,^http://api.51job.com/api/market/adtrace.php
 URL-REGEX,^http://appapi.51job.com/api/market/get_advertise.php?format=json&position=launch
 
-# Amap
+# > Amap
 URL-REGEX,^https?://m5.amap.com/ws/valueadded/alimama/splash_screen/
 URL-REGEX,^https?://m5.amap.com/ws/shield/dsp/app/startup/init
 URL-REGEX,^https?://amap-aos-info-nogw.amap.com/ws/aos/alimama/
@@ -22,40 +22,41 @@ URL-REGEX,^https?://m\d.amap.com/ws/message/notice/list
 URL-REGEX,^https?://render-oss-cdn.amap.com/render/studio-dev/image/
 URL-REGEX,^https?://sns.amap.com/ws/msgbox/pull
 
-# Apple
+# > Apple
 DOMAIN,ocsp.apple.com // 证书验证服务器
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,unityads.unity3d.com
 
-# CmbChina
+# > CmbChina
 URL-REGEX,^https://pic1cdn.cmbchina.com/appinitads/
 URL-REGEX,^https://az1mbasecc.bas.cmbchina.com/Edge/api/mlife.clientface.clientservice.api.advertiseService/preCacheAdvertiseSec
 URL-REGEX,^https://intellicc.bas.cmbchina.com/Edge/api/mlife.intelli.adrender.api.AdWork/getAdsBySlotId
 URL-REGEX,^https://intellicc.bas.cmbchina.com/Edge/api/mlife.intelli.adrender.api.AdWork/getMultipleAdsV2
 
-# DCar
+# > DCar
 URL-REGEX,^https://api5-normal-lf.dcarapi.com/motor/ad/
 URL-REGEX,^https://ib.snssdk.com/api/ad/
 URL-REGEX,^https://ib.snssdk.com/motor/ad/
 
-# Deepal
+# > Deepal
 URL-REGEX,^https://app-api.deepal.com.cn/appapi/v1/m_app/ad/startPage
 
-# ICBC
+# > ICBC
 URL-REGEX,^http://v.icbc.com.cn/userfiles/Resources/WAP/advertisement/
 
-# ITHome
+# > ITHome
 URL-REGEX,^https://dat.ruanmei.com/ithome/v\d/
 
-# JD
+# > JD
 URL-REGEX,^https://api.m.jd.com/client.action\?functionId=start
-# PDD
+
+# > PDD
 URL-REGEX,^https?://api.yangkeduo.com/api/cappuccino/splash
 
-# Telegram
+# > Telegram
 IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23d::/48,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
 
-# Weibo int
+# > Weibo int
 URL-REGEX,^https://api.weibo.cn/2/ad/
