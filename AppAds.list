@@ -27,6 +27,11 @@ DOMAIN,ocsp.apple.com // 证书验证服务器
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,unityads.unity3d.com
 
+# > Bilibili manga
+URL-REGEX,^https://manga.bilibili.com/twirp/comic.v1.Comic/AppInit
+URL-REGEX,^https://manga.bilibili.com/twirp/comic.v1.Comic/ListFlash
+
+
 # > CmbChina
 URL-REGEX,^https://pic1cdn.cmbchina.com/appinitads/
 URL-REGEX,^https://az1mbasecc.bas.cmbchina.com/Edge/api/mlife.clientface.clientservice.api.advertiseService/preCacheAdvertiseSec
