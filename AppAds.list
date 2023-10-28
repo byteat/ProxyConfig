@@ -32,6 +32,7 @@ URL-REGEX,^https://manga.bilibili.com/twirp/comic.v1.Comic/ListFlash
 
 # > CmbChina
 URL-REGEX,^https://pic1cdn.cmbchina.com/appinitads/
+URL-REGEX,^https://mbads.paas.cmbchina.com/v1/redirect/offlineloader
 
 # > CmbLife
 URL-REGEX,^https://az1mbasecc.bas.cmbchina.com/Edge/api/mlife.clientface.clientservice.api.advertiseService/preCacheAdvertiseSec
