@@ -15,7 +15,7 @@ URL-REGEX,^http://appapi.51job.com/api/market/get_advertise.php?format=json&posi
 # > Amap
 URL-REGEX,^https?://m5.amap.com/ws/valueadded/alimama/splash_screen/
 URL-REGEX,^https?://m5.amap.com/ws/shield/dsp/app/startup/init
-URL-REGEX,^https?://amap-aos-info-nogw.amap.com/ws/aos/alimama/
+URL-REGEX,^https?://amap-aos-info-nogw.amap.com/ws/aos/alimama/splash_screen
 URL-REGEX,^https?://m\d.amap.com/ws/message/notice/list
 URL-REGEX,^https?://render-oss-cdn.amap.com/render/studio-dev/image/
 URL-REGEX,^https?://sns.amap.com/ws/msgbox/pull
@@ -25,10 +25,12 @@ DOMAIN,ocsp.apple.com // 证书验证服务器
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,unityads.unity3d.com
 
+# > Block Update
+URL-REGEX,^https://m5.amap.com/ws/shield/nest/updatable/v1/preUpgrade
+
 # > Bilibili manga
 URL-REGEX,^https://manga.bilibili.com/twirp/comic.v1.Comic/AppInit
 URL-REGEX,^https://manga.bilibili.com/twirp/comic.v1.Comic/ListFlash
-
 
 # > CmbChina
 URL-REGEX,^https://pic1cdn.cmbchina.com/appinitads/
