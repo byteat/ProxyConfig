@@ -60,7 +60,9 @@ URL-REGEX,^http://v.icbc.com.cn/userfiles/Resources/WAP/advertisement/
 URL-REGEX,^https://dat.ruanmei.com/ithome/v\d/
 
 # > JD
+URL-REGEX,^https://api.m.jd.com/api/appPublishUpgrade
 URL-REGEX,^https://api.m.jd.com/client.action\?functionId=start
+URL-REGEX,^https://api.m.jd.com/client.action\?functionId=xview2Config
 
 # > PDD
 URL-REGEX,^https?://api.yangkeduo.com/api/cappuccino/splash
