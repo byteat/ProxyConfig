@@ -41,9 +41,14 @@ URL-REGEX,^https://pic1cdn.cmbchina.com/appinitads/
 URL-REGEX,^https://mbads.paas.cmbchina.com/v1/redirect/offlineloader
 
 # > CmbLife
+URL-REGEX,^https://az1authcc.bas.cmbchina.com/Edge/api/device.api.CmblifeDeviceSDKControllerApi/updateDeviceInfoForClient
 URL-REGEX,^https://az1mbasecc.bas.cmbchina.com/Edge/api/mlife.clientface.clientservice.api.advertiseService/preCacheAdvertiseSec
+URL-REGEX,^https://bill.cdcc.cmbchina.com/CnfUpdaterService/getMultiClientConfigsSMSecurity.json
 URL-REGEX,^https://intellicc.bas.cmbchina.com/Edge/api/mlife.intelli.adrender.api.AdWork/getAdsBySlotId
 URL-REGEX,^https://intellicc.bas.cmbchina.com/Edge/api/mlife.intelli.adrender.api.AdWork/getMultipleAdsV2
+URL-REGEX,^https://mlife.cmbchina.com/CnfUpdaterService/
+
+
 
 # > DCar
 URL-REGEX,^https://api5-normal-lf.dcarapi.com/motor/ad/
