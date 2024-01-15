@@ -45,6 +45,12 @@ URL-REGEX,^https://az1mbasecc.bas.cmbchina.com/Edge/api/mlife.clientface.clients
 URL-REGEX,^https://intellicc.bas.cmbchina.com/Edge/api/mlife.intelli.adrender.api.AdWork/getAdsBySlotId
 URL-REGEX,^https://intellicc.bas.cmbchina.com/Edge/api/mlife.intelli.adrender.api.AdWork/getMultipleAdsV2
 
+# > Ctrip
+DOMAIN-SUFFIX,download2.ctrip.com
+URL-REGEX,^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif
+URL-REGEX,^https:\/\/m\.ctrip\.com\/restapi\/.+\/json\/tripAds
+URL-REGEX,^https:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$
+
 # > DCar
 URL-REGEX,^https://api5-normal-lf.dcarapi.com/motor/ad/
 URL-REGEX,^https://ib.snssdk.com/api/ad/
