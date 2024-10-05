@@ -8,4 +8,4 @@ Rewrite: Bilibili漫画 = type=http-request,pattern=https:\/\/manga\.bilibili\.c
 Rewrite: IThome = type=http-request,pattern=^https:\/\/my\.ruanmei\.com\/api\/usersign\/getsigninfo?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ithome/ithome.cookie.js
 
 [MITM]
-hostname = %INSERT%, *.bilibili.com, cccat.io, my.ruanmei.com
+hostname = %INSERT%, *.bilibili.com, cccat.io, napi.ithome.com
