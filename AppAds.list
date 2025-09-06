@@ -6,12 +6,6 @@ DOMAIN-SUFFIX,unityads.unity3d.com
 # > Block Update
 URL-REGEX,^https://m5.amap.com/ws/shield/nest/updatable/v1/preUpgrade
 
-# > Ctrip
-DOMAIN-SUFFIX,download2.ctrip.com
-URL-REGEX,^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif
-URL-REGEX,^https:\/\/m\.ctrip\.com\/restapi\/.+\/json\/tripAds
-URL-REGEX,^https:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$
-
 # > Deepal
 URL-REGEX,^https://app-api.deepal.com.cn/appapi/v1/m_app/ad/
 
